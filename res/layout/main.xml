@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" /> -->
+    
+    <LinearLayout
+   	android:id="@+id/line1"
+    android:layout_width ="fill_parent" 
+    android:layout_height="wrap_content" 
+    >
+
+	    <EditText
+	        android:id="@+id/editText1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/hello"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:ems="10"
+	        android:inputType="textPersonName" >
+	        
+	    </EditText>
+    </LinearLayout>
+    
+	<LinearLayout
+	    android:id="@+id/line2"
+	    android:layout_width ="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:layout_below="@+id/line1"
+	    >
+	 	<Button
+	        android:id="@+id/synth"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"       
+	        android:text="@string/cloudSynth"
+	        android:onClick="onClick" />
+
+	</LinearLayout>
+
+	<LinearLayout
+	    android:id="@+id/line6"
+	    android:layout_width ="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:layout_below="@+id/line5"
+	    >
+   		 <Button
+	        android:id="@+id/btnPause"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/btnPause"
+	        android:onClick="onClick"/>
+	</LinearLayout>
+
+	<LinearLayout
+	    android:id="@+id/line7"
+	    android:layout_width ="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:layout_below="@+id/line6"
+	    >
+   		 <Button
+	        android:id="@+id/btnResume"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/btnResume"
+	        android:onClick="onClick"/>
+	</LinearLayout>
+		
+</LinearLayout>

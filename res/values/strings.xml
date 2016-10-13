@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">你好,欢迎使用灵云播放器示例程序!Good luck!</string>
+    <string name="app_name">TTS_Player_Example</string>
+    <string name="cloudSynth">播放</string>
+    <string name="cloudEncode">播放(云端合成Opus)</string>
+    <string name="localSynth">播放(本地合成)</string>
+    <string name="localSynthN6">播放(本地合成n6)</string>
+    <string name="pause">暂停</string>
+    <string name="btnResume">继续</string>
+    <string name="btnPause">暂停</string>
+
+</resources>
